@@ -4,10 +4,17 @@
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
 }
+section{
+	padding:100px 0;
+}
 .container{
     width:80%;
     margin: auto;
-    margin-top: 60px;
+}
+.colo{
+	background-color:blue !important;
+	text-decoration: none;
+	border:1px solid blue !important;
 }
 .row5{
     display: flex;

@@ -4,6 +4,7 @@ form.addEventListener('submit',function(e){
     let phone=document.querySelector('#phone').value;
     let pass=document.querySelector('#psw').value;
     let result=document.querySelector('.result');
+	let results=document.querySelector('.result-2');
 
     // if(phone==="" || isNaN(phone)){
     //     result.innerHTML="please enter the phone number";
@@ -23,10 +24,14 @@ form.addEventListener('submit',function(e){
     let gpsw=localStorage.getItem('Password');
 
     if(phone===gphone && pass===gpsw){
-        alert("success");
+        results.innerHTML="Log In Successful";
     }
-    else{
-        alert("incorrect");
+	else if(phone===""){
+        result.innerHTML="please enter the phone number";
     }
+	else if(pass===""){
+        result.innerHTML="please enter the password";
+    }
+    
 
 });

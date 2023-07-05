@@ -7,7 +7,7 @@ body{
     background-color: #dee9ec83;
 }
 section{
-    margin-top: 120px;
+    padding: 100px 0;
 }
 .container{
     width:80%;
@@ -72,6 +72,16 @@ input{
     font-weight: bold;
     color:#fff;
     background-color: blue;
+}
+.result-2{
+	color:green;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+.result{
+	color:red;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
 }
 .a{
     text-align: center;
